@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="index2.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Diagnoser & Treatment Test</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Previous Illness</span>
+              <select
+                class="previous_illness"
+                name=""
+                id="uiprev_ill"
+                style="
+                  margin-top: 0px;
+                  font-size: 16px;
+                  height: 45px;
+                  width: 204%;
+                "
+              >
+                <option value="" disabled="disabled" selected="selected">
+                  Choose a prev ill
+                </option>
+
+                <option>aortic valve replacement surgery</option>
+                <option>no serious illness</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Cardiac CT</span>
+              <select
+                class="cardiac_CT"
+                name=""
+                id="uicardiac_CT"
+                style="
+                  margin-top: 0px;
+                  font-size: 16px;
+                  height: 45px;
+                  width: 204%;
+                "
+              >
+                <option value="" disabled="disabled" selected="selected">
+                  Choose a cardiac CT
+                </option>
+                <option>25% - 45% dilation of the infrarenal aorta</option>
+                <option>shows constrictive pericarditis</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Age</span>
+              <input type="text" placeholder="Enter your Age" id="uiage" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Chest Pain</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uicp" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Shortness of Breath</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uisob" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Systolic</span>
+              <input type="text" placeholder="Enter Systolic rate" id="uisys" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Diastolic</span>
+              <input type="text" placeholder="Enter Diastolic rate" id="uidiasys" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Heart Rate</span>
+              <input type="text" placeholder="Enter Heart rate" id="uihrate" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Cholesterol Level</span>
+              <input type="text" placeholder="Enter Cholestrol Level" id="uichol" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Diabetes</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uidiab" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Hypertension</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uihyper" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Smoking</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uismoke" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Obesity</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uiobe" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Gender</span>
+              <input type="text" placeholder="Enter your 0 or 1" id="uigender" required />
+            </div>
+          </div>
+<!-- idhar button delete karna hai -->
+          <!-- <input type="submit" value="Submit" id="submit" /> -->
+
+          <div class="button">
+            <input type="submit" value="Test" onclick="onClickedEstimatePrice()" />
+          </div>
+          <div id="uiEstimatedPrice" class="result"><h2></h2></div>
+          
+          <div class="button">
+            <input type="submit" value="Print PDF" onclick="window.print()" />
+          </div>
+        </form>
+          
+          
+      </div>
+    </div>
+  </body>
+</html>
