@@ -18,10 +18,15 @@ Solution :
 • This model is developed on various features such as Previous history of heart disease, related medical conditions results from a cardiac computed tomography (CT) scan, Age, Chest pain, Shortness of breath, Systolic and diastolic blood pressure, Heart rate, Cholesterol levels, Diabetes, Hypertension (high blood pressure), Smoking, Obesity, Gender.
 
 Running the program : 
+
 • Fork the following repository.
+
 • Install pyton on your VS Code or pycharm and if some packages or new modules are not updated , install it using using -m pip install --upgrade SomePackage.
+
 • Install scikit libraries using pip install -U scikit-learn
+
 • Install Flask server using pip install Flask.
+
 • Then in server directory run server.py (it will be connected to local host).
 • Then in html folder run index.html file and start exploring the project.
 
