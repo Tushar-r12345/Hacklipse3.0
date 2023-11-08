@@ -30,3 +30,19 @@ Running the program :
 • Then in server directory run server.py (it will be connected to local host).
 • Then in html folder run index.html file and start exploring the project.
 
+# Images from Project
+![Vital-Heart-Live-Life-to-the-Fullest-with-a-Strong-Vital-Heart- (1)](https://github.com/Tushar-r12345/Hacklipse3.0/assets/90563855/e81c3b5f-f932-4aeb-9bfd-3781a09bd8cf)
+
+![127-0-0-1-5503-html-index2-html](https://github.com/Tushar-r12345/Hacklipse3.0/assets/90563855/0c25e983-4886-4b0d-af3f-ed3c290424b6)
+
+![127-0-0-1-5503-html-index2-html- (1)](https://github.com/Tushar-r12345/Hacklipse3.0/assets/90563855/0e6b29f9-66a9-489e-9326-08f80ed05b73)
+
+![h12](https://github.com/Tushar-r12345/Hacklipse3.0/assets/90563855/1c1192c0-d67c-47a3-9654-0ed7a1e30664)
+
+
+
+
+
+
+
+
