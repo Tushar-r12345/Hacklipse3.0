@@ -8,7 +8,7 @@ Problem Statement :
  
 • There are many different factors that contribute to the development of heart disease, and the best course of treatment can vary depending on a patient's individual risk factors and medical history.
 
-• Value of Propsition : Overall, the value proposition of your heart disease and treatment prediction model is that it provides a more accurate, personalized, and cost-effective approach to identifying and treating heart disease, which is a major public health issue worldwide
+• Value of Propsition : Overall, the value proposition of heart disease and treatment prediction model is that it provides a more accurate, personalized, and cost-effective approach to identifying and treating heart disease, which is a major public health issue worldwide
 I have developed a heart disease and treatment prediction model that uses data analysis and machine learning techniques to identify individuals who are at high risk of developing heart disease, as well as suggest potential treatment options based on that prediction.
 
 Solution :
